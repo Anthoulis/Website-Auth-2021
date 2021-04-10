@@ -1,0 +1,30 @@
+
+/* With this we can add our custom font-family to our website using the name we want*/
+@font-face
+{
+    src: url(fonts/Cormorant_Unicase/CormorantUnicase-Bold.ttf);
+    /*We name the font*/
+    font-family: cormorant;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* My custom Colours*/
+.myLinearColour
+{
+    background: rgb(251,216,254);
+    background: -moz-linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    background: linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);
+}
+.myRadialColour
+{
+    background: rgb(251,216,254);
+    background: -moz-radial-gradient(circle, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    background: radial-gradient(circle, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);   
+}

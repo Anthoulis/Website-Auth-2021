@@ -15,14 +15,14 @@
 
 
     <!--Gender Equality-->
-    <h1 class="text-center  myLinearColour" style="font-family: cormorant;">GENDER EQUALITY</h1> 
+    <h1 class="text-center" style="font-family: cormorant;">GENDER EQUALITY</h1> 
 </div>
 
 
  
 <!-----------Navigation Bar----------->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="border-bottom: 1px outset black;" >
    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,24 +46,54 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#"> Make an appointment for a <b>live</b> call!</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <!--syndesh Login-->
+        <form class="form-inline my-2 my-lg-0" action="userLogin.html">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-secondary mr-sm-2" type="submit">Sign up!</button>
-            <button class="btn btn-primary mr-sm-2" type="submit">Login</button>
+            <button id="register" class="btn btn-outline-secondary mr-sm-2" type="submit">Sign up!</button>
+            <button id="login"  class="btn btn-primary mr-sm-2" type="submit">Login</button>
         </form>
+                
     </div>
 </nav>
+<body class="myLinearColour">
+     <!----------------Paragraph 1 with an image next to it------------------------------------------------->
+    <!--We use row from bootstrap and our custom colour from style.css-->
+    <div class="row ">
+        
+        <p class="col-sm-9" style="margin-top: 50px;" ><b>Gender equality</b> is not only a fundamental human right, but a necessary foundation 
+            for a peaceful, prosperous and sustainable world. There has been progress over the 
+            last decades: More girls are going to school, fewer girls are forced into early marriage,
+            more women are serving in parliament and positions of leadership,and laws are being
+            reformed to advance gender equality. Despite these gains, many challenges 
+            remain: discriminatory laws and social norms remain pervasive, women continue to be 
+            underrepresented at all levels of political leadership, and 1 in 5 women and girls 
+            between the ages of 15 and 49 report experiencing physical or sexual violence by an
+            intimate partner within a 12-month period.</p>
+    
+        <img src="images\genders.jpg" alt="image"  class="col-sm-3"  style="max-height: 250px; " >
+    </div>
+    
+    <!----------------Paragraph 2 with an image next to it------------------------------------------------->
+    <!--We use row from bootstrap and our custom colour from style.css-->
+    <div class="row">
+        <p class="text-left col-sm-9">How <b>COVID-19</b> pandemic has affected this problem! </h2>
+            The effects of the COVID-19 pandemic could reverse the limited progress that has been made 
+            on gender equality and women’s rights.  The coronavirus outbreak exacerbates existing inequalities 
+            for women and girls across every sphere – from health and the economy, to security and social protection. 
+            Women play a disproportionate role in responding to the virus, including as frontline healthcare
+            workers and carers at home. Women’s unpaid care work has increased significantly as a result of school 
+            closures and the increased needs of older people. Women are also harder hit by the economic impacts of
+            COVID-19, as they disproportionately work in insecure labour markets. Nearly 60 per cent of women work
+            in the informal economy, which puts them at greater risk of falling into poverty.The pandemic has also 
+            led to a steep increase in violence against women and girls. With lockdown measures in place, many women
+            are trapped at home with their abusers, struggling to access services that are suffering from cuts and
+            restrictions. Emerging data shows that, since the outbreak of the pandemic, violence against women and 
+            girls – and particularly domestic violence – has intensified. </p>
 
-
-
-
-
-
+        <img src="images\gendersbalance.png" alt="image" class="col-sm-3" style="max-height: 250px; " >
+    </div>
+</body>
 
 
 

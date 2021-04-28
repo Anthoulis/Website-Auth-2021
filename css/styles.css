@@ -1,3 +1,10 @@
+@font-face
+{
+    src: url(fonts/Cormorant_Unicase/CormorantUnicase-Bold.ttf);
+    /*We name the font*/
+    font-family: cormorant;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,4 +31,72 @@ body{
     background: -webkit-radial-gradient(circle, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
     background: radial-gradient(circle, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);   
+}
+
+
+
+nav .navbar-nav li a{
+    color: #408AE0 !important;
+}
+nav .navbar-nav li a:hover{
+    color: #E997F5 !important;
+}
+.nav-link{
+    font-size: 1.1rem !important;
+}
+
+.carousel-inner img{
+    width: 35%;
+    max-height: 35%;
+    margin: auto;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btn-primary{
+    background-color: #FBD8FE;
+    border: 1px solid #FBD8FE;
+    color : #408AE0;
+}
+.btn-primary:hover{
+    background-color: #E997F5;
+    border: 1px solid #E997F5;
+    color : #408AE0;
+}
+.btn-outline-secondary:hover{
+    outline-color: #408AE0;
+    background-color: #E997F5;
+    border: 1px solid #E997F5;
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+.jumbotron h1{
+    text-align: center;
+}
+.jumbotron button{
+    background-color: #FBD8FE;
+    margin-top: 1rem;
+
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
 }

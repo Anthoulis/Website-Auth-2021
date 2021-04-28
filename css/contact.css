@@ -1,0 +1,53 @@
+@font-face
+{
+    src: url(fonts/Cormorant_Unicase/CormorantUnicase-Bold.ttf);
+    /*We name the font*/
+    font-family: cormorant;
+}
+/* My custom Colours*/
+body
+{
+    background: rgb(251,216,254);
+    background: -moz-linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    background: linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);
+}
+
+nav .navbar-nav li a{
+    color: #408AE0 !important;
+}
+nav .navbar-nav li a:hover{
+    color: #E997F5 !important;
+}
+.nav-link{
+    font-size: 1.1rem !important;
+}
+.btn-primary{
+    background-color: #FBD8FE;
+    border: 1px solid #FBD8FE;
+    color : #408AE0;
+}
+.btn-primary:hover{
+    background-color: #E997F5;
+    border: 1px solid #E997F5;
+    color : #408AE0;
+}
+.padding{
+     padding: 2rem;
+ }
+
+h2{
+    margin-top: 5rem;
+    text-shadow: #e4e4e4;
+    text-align: center;
+}
+
+
+#submitButton{
+  float: right;
+}
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}

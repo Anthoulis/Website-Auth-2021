@@ -4,6 +4,16 @@
     /*We name the font*/
     font-family: cormorant;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
 /* My custom Colours*/
 body
 {

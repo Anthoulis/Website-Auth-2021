@@ -4,7 +4,7 @@
 
 <!--Articles-->
 <section class="myLinearColour" 
-style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-large; font-weight:bolder; color: black;">
+style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-large; font-weight:bolder; color: white;">
         <!--Image and article-->
         <div class="row align-items-center" style= "padding-block: 20px;">
             
@@ -60,7 +60,7 @@ style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-lar
             <iframe class="col-md-6"  src="https://www.youtube.com/embed/X8TKIxNVbXc" height="400px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
-        <p style="padding-top: 80px; font-size:x-large; font-weight:bolder; color: black;"> The Gender Equality Index is a tool to measure the progress of gender equality in the EU,
+        <p style="padding-top: 80px; font-size:x-large; font-weight:bolder; color: white;"> The Gender Equality Index is a tool to measure the progress of gender equality in the EU,
         developed by EIGE. It gives more visibility to areas that need improvement and ultimately
         supports policy makers to design more effective gender equality measures.</p>
         

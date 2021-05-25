@@ -34,7 +34,9 @@ body{
 
 header nav li
 {
-    font-size: 500px !important;
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 20px;
 }
 
 nav .navbar-nav li a{

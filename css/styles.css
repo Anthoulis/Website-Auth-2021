@@ -32,14 +32,16 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);
 }
 
+header nav li
+{
+    font-size: 500px !important;
+}
+
 nav .navbar-nav li a{
     color: #408AE0 !important;
 }
 nav .navbar-nav li a:hover{
     color: #E997F5 !important;
-}
-.nav-link{
-    font-size: 1.1rem !important;
 }
 
 .carousel-inner img{

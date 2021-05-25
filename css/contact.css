@@ -14,15 +14,6 @@ body{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
-/* My custom Colours*/
-body
-{
-    background: rgb(251,216,254);
-    background: -moz-linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
-    background: -webkit-linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
-    background: linear-gradient(90deg, rgba(251,216,254,1) 10%, rgba(233,151,245,0.6362920168067228) 25%, rgba(169,203,244,1) 50%, rgba(64,138,224,1) 75%, rgba(0,108,235,1) 90%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);
-}
 
 nav .navbar-nav li a{
     color: #408AE0 !important;

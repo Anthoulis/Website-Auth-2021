@@ -34,29 +34,19 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);
 }
 
-header nav li
-{
+
+header nav .navbar-nav li a{
     margin: 0;
     padding: 0;
     font-size: larger;
     font-weight: bold;
     padding-right: 20px;
-}
-header nav div 
-{
-    margin: 0;
-    padding: 0;
-}
-
-header nav .navbar-nav li a{
-    margin: 0;
-    padding: 0;
-    color: #408AE0;
+    color: #408AE0 !important;
 }
 header nav .navbar-nav li a:hover{
     margin: 0;
     padding: 0;
-    color: #E997F5 ;
+    color: #E997F5 !important;
 }
 
 .carousel-inner img{

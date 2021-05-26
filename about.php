@@ -34,7 +34,7 @@
         </div>
         <div class ="col-md-3">
             <div class="card">
-                <img class="card-img-top" src="img/team/Ioannis.jpg" alt="Ioannis" style="height: 500px; object-fit: cover;">
+                <img class="card-img-top" src="img/team/Ioanniss.jpg" alt="Ioannis" style="height: 500px; object-fit: cover;">
                 <div class="card-body">
                     <h4 class="card-title">Ioannis Anthoulis</h4>
                     <p class="card-text">Ioannis Anthoulis, AEM 2966</p>

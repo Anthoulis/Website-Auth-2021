@@ -56,8 +56,8 @@ style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-lar
 <div class="myLinearColour" style="padding-top: 30px;">
     
         <div class="row align-items-center">
-            <iframe class="col-md-6 "  src="https://www.youtube.com/embed/ZIATLVKZ_ag" height="400px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="col-md-6"  src="https://www.youtube.com/embed/X8TKIxNVbXc" height="400px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col-md-6 "  src="https://www.youtube.com/embed/ZIATLVKZ_ag" height="500px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col-md-6"  src="https://www.youtube.com/embed/X8TKIxNVbXc" height="500px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <p style="padding-top: 80px; font-size:x-large; font-weight:bolder; color: white;"> The Gender Equality Index is a tool to measure the progress of gender equality in the EU,

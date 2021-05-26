@@ -10,6 +10,8 @@
 }
 html,
 body{
+    margin: 0;
+    padding: 0;
     height: 100;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -34,16 +36,27 @@ body{
 
 header nav li
 {
+    margin: 0;
+    padding: 0;
     font-size: larger;
     font-weight: bold;
     padding-right: 20px;
 }
-
-nav .navbar-nav li a{
-    color: #408AE0 !important;
+header nav div 
+{
+    margin: 0;
+    padding: 0;
 }
-nav .navbar-nav li a:hover{
-    color: #E997F5 !important;
+
+header nav .navbar-nav li a{
+    margin: 0;
+    padding: 0;
+    color: #408AE0;
+}
+header nav .navbar-nav li a:hover{
+    margin: 0;
+    padding: 0;
+    color: #E997F5 ;
 }
 
 .carousel-inner img{
@@ -92,10 +105,6 @@ nav .navbar-nav li a:hover{
 .jumbotron button{
     background-color: #FBD8FE;
     margin-top: 1rem;
-
-}
-.padding{
-    padding-bottom: 2rem;
 }
 .social a{
     font-size: 4.5em;

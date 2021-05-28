@@ -4,10 +4,6 @@
     /*We name the font*/
     font-family: cormorant;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
 html,
 body{
     margin: 0;
@@ -34,69 +30,45 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbd8fe",endColorstr="#006ceb",GradientType=1);
 }
 
+/*Header*/
+.navbar-brand{
+    letter-spacing: 1.2px;
+    font-weight:bold; 
+    font-size:xx-large;
+}
 
 header nav .navbar-nav li a{
-    margin: 0;
-    padding: 0;
+    margin-right: 10px;
     font-size: larger;
     font-weight: bold;
-    padding-right: 20px;
     color: #408AE0 !important;
 }
+
 header nav .navbar-nav li a:hover{
-    margin: 0;
-    padding: 0;
     color: #E997F5 !important;
 }
+/*Search*/
+.form-control{
+    max-width: 180px;
+    margin-bottom: 8px;
+    
+}
 
-.carousel-inner img{
-    width: 35%;
-    max-height: 35%;
-    margin: auto;
+/*Footer*/
+footer h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
 }
-.carousel-caption{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+footer hr{
+    margin-bottom: 15px;
+    padding: 0;
 }
-.carousel-caption h1{
-    font-size: 500%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
+
+ div > div > div > p,a{
+    padding-bottom: 5px;
 }
-.carousel-caption h3{
-    font-size: 200%;
-    font-weight: 500;
-    text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
-}
-.btn-primary{
-    background-color: #FBD8FE;
-    border: 1px solid #FBD8FE;
-    color : #408AE0;
-}
-.btn-primary:hover{
-    background-color: #E997F5;
-    border: 1px solid #E997F5;
-    color : #408AE0;
-}
-.btn-outline-secondary:hover{
-    outline-color: #408AE0;
-    background-color: #E997F5;
-    border: 1px solid #E997F5;
-}
-.jumbotron{
-    padding: 1rem;
-    border-radius: 0;
-}
-.jumbotron h1{
-    text-align: center;
-}
-.jumbotron button{
-    background-color: #FBD8FE;
-    margin-top: 1rem;
-}
-.social a{
-    font-size: 4.5em;
-    padding: 3rem;
+/*genderequality.com*/
+div.col-12:nth-child(4) > h5:nth-child(2){
+    padding-bottom: 30px;
 }

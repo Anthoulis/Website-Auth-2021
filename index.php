@@ -1,7 +1,30 @@
 <?php
-    include 'header.php';
+
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gender Equality</title>
+    <!--Header Template-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <!--Our style-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--Header-->
+<?php
+include 'templates/header.php';
+?>
 <!--Articles-->
 <section class="myLinearColour" 
 style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-large; font-weight:bolder; color: white;">
@@ -53,11 +76,11 @@ style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-lar
 <!--Videos and Graphs-->
 <section class="myLinearColour" 
 style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-large; font-weight:bolder; color: black;">
-<div class="myLinearColour" style="padding-top: 30px;">
+<div style="padding-top: 30px;">
     
         <div class="row align-items-center">
-            <iframe class="col-md-6 "  src="https://www.youtube.com/embed/ZIATLVKZ_ag" height="500px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="col-md-6"  src="https://www.youtube.com/embed/X8TKIxNVbXc" height="500px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col-md-6 " style="padding: 0; margin:0;"  src="https://www.youtube.com/embed/ZIATLVKZ_ag" height="500px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col-md-6"  style="padding: 0; margin:0;"  src="https://www.youtube.com/embed/X8TKIxNVbXc" height="500px" width="100%" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <p style="padding-top: 80px; font-size:x-large; font-weight:bolder; color: white;"> The Gender Equality Index is a tool to measure the progress of gender equality in the EU,
@@ -71,66 +94,66 @@ style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-lar
 <!--- Image Slider --->
 <section class="myLinearColour" 
 style="padding-top: 80px; padding-left:20px; padding-right:40px; font-size:x-large; font-weight:bolder; color: black;">
-<div id="carouselExampleIndicators" class="carousel slide myLinearColour" data-ride="carousel" style="padding-top: 80px;">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block" src="img/carousel/1.png" alt="First slide">
+    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel" style="padding-top: 80px;">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <img class="d-block" src="img/carousel/1.png" alt="First slide" style="min-width: 300px; min-height: 300px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="img/carousel/2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="img/carousel/3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="img/carousel/4.png" alt="Fourth slide">
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block " src="img/carousel/5.png" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="img/carousel/6.png" alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="img/carousel/7.png" alt="Seventh slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="img/carousel/8.png" alt="Eight slide">
+            </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block" src="img/carousel/2.png" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block" src="img/carousel/3.png" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block" src="img/carousel/4.png" alt="Fourth slide">
-        </div>
-        <div class="carousel-item ">
-            <img class="d-block " src="img/carousel/5.png" alt="Fifth slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block" src="img/carousel/6.png" alt="Sixth slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block" src="img/carousel/7.png" alt="Seventh slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block" src="img/carousel/8.png" alt="Eight slide">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Jumbotron -Εστιάζει σε πληροφορίες-->
+    <div  style="padding: 25px;">
+        <div class="container-fluid ">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <h1 class="display-4">Help end this! Educate yourself & others</h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Learn more</button></a>
+                </div>
+            </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-<!-- Jumbotron -Εστιάζει σε πληροφορίες-->
-<div class="myLinearColour" style="padding: 25px;">
-<div class="container-fluid ">
-    <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <h1 class="display-4">Help end this! Educate yourself & others</h1>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Learn more</button></a>
-        </div>
-    </div>
-</div>
-</div>
 </section>
 <?php
-    include "footer.php";
+    include "templates/footer.php";
 ?>

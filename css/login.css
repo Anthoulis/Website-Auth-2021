@@ -10,35 +10,10 @@
 
 form{
     margin: auto;
-    padding: auto;
-    margin-top: auto;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    text-align: left;
     margin-top: 60px;
     background-color: thistle;
     padding: 30px;
     width: 432px;
     height: 558px;
-}
-
-.sectionSingUp
-form{
-    margin: auto;
-}
-
-div.form-group input {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-row {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-group {
-    margin-left: auto;
-    margin-right: auto;
 }

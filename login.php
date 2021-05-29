@@ -30,11 +30,11 @@ include 'templates/header.php';
 <h2>Log In</h2>
 <form>
     <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
+        <label for="exampleInputEmail1">Email address :</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
+        <label for="exampleInputPassword1">Password :</label>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
     </div>
     <button type="submit" class="btn btn-primary">Log in</button>
@@ -46,15 +46,17 @@ include 'templates/header.php';
 <section class="sectionSingUp">
 <h2>Sing Up</h2>
 <form>
-<label for="exampleInputEmail1">First Name</label>
-<label for="exampleInputEmail1">Last Name</label>
+<label for="exampleInputEmail1">First and Last Name :</label>
     <div class="form-row">
         <input type="text" class="form-control" placeholder="First name" style="margin-left: auto; margin-right:10px">
         <input type="text" class="form-control" placeholder="Last name"  style="margin-right: auto;">
     </div>
     <div class="form-group">
+        <label for="exampleInputEmail1">Email address :</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="exampleInputEmail1">Password :</label>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <label for="exampleInputEmail1">Repeat Password :</label>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repeat Password">
     </div>
     <button type="submit" class="btn btn-primary">Sing Up</button>

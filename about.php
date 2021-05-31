@@ -1,32 +1,12 @@
-<?php
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>GE ABOUT</title>
-    <!--Header Template-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo.png">
-    <!--Reset-->
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Our style-->
-    <link rel="stylesheet" href="css/styles.css">
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-</head>
 <!--Header-->
 <?php
+$title='ABOUT';
 include 'templates/header.php';
 ?>
+
+
 <!----Meet the team---->
-<div class="container-fluid padding myLinearColour">
+<div class="container-fluid padding myLinearColor" style="padding-top: 150px;">
     <div class="row welcome text-center">
         <div class="col-12">
             <h1 class="display-4">Meet the Team</h1>
@@ -35,8 +15,8 @@ include 'templates/header.php';
     </div>
     </div>
 <!---Cards--->
-<div class="container-fluid padding myLinearColour">
-    <div class="row padding">
+<div class="container-fluid padding myLinearColor" style="padding-bottom: 150px;">
+    <div class="row ">
         <div class ="col-md-3">
             <div class="card">
                 <img class="card-img-top" src="img/team/Harry.jpg" alt="Harry" style="height: 500px; object-fit: cover;">
@@ -46,7 +26,7 @@ include 'templates/header.php';
                 </div>
             </div>
         </div>
-        <div class ="col-md-3">
+        <div class ="col-md-3 ">
             <div class="card">
                 <img class="card-img-top" src="img/team/Alexandros.jpg" alt="Alexandros" style="height: 500px; object-fit: cover;">
                 <div class="card-body">
@@ -55,7 +35,7 @@ include 'templates/header.php';
                 </div>
             </div>
         </div>
-        <div class ="col-md-3">
+        <div class ="col-md-3 ">
             <div class="card">
                 <img class="card-img-top" src="img/team/Ioanniss.jpg" alt="Ioannis" style="height: 500px; object-fit: cover;">
                 <div class="card-body">
@@ -64,7 +44,7 @@ include 'templates/header.php';
                 </div>
             </div>
         </div>
-        <div class ="col-md-3">
+        <div class ="col-md-3 ">
             <div class="card">
                 <img class="card-img-top" src="img/team/Nikos.jpg" alt="Nikolaos" style="height: 500px; object-fit: cover;">
                 <div class="card-body">
@@ -75,6 +55,7 @@ include 'templates/header.php';
         </div>
     </div>
 </div>
+
 <?php
     include "templates/footer.php";
 ?>

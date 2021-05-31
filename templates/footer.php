@@ -15,7 +15,7 @@
         <a class="btn btn-outline-dark btn-floating  m-1" href="https://twitter.com/UN_Women" role="button" style="border-radius: 50%;">        <img src="img/twitter.png" alt="Twitter"></a>
     </section>
     <!---->
-    <div class="container-fluid" style="padding-top: 80px;">
+    <div class="container-fluid" style="padding-top: 50px;">
         <div class="row text-center">
             <div class="col-md-4">
                 <h5>Contact</h5>

@@ -78,6 +78,8 @@ footer h5{
 footer hr{
     margin-bottom: 15px;
     padding: 0;
+    width: 90%;
+    border-color: white;
 }
 
 div > div > div > p,a{
